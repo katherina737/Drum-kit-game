@@ -1,3 +1,9 @@
+.gradient-background {
+  background: linear-gradient(300deg, #e7cfee, #b956f3, #470585);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
 body {
   text-align: center;
   background-color: #761caa;
@@ -7,7 +13,7 @@ h1 {
   font-size: 6rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #CB1C8D;
+  text-shadow: 3px 0 #1a0faf;
 
 }
 
@@ -66,7 +72,7 @@ footer {
 
 .drum {
   outline: none;
-  border: 8px solid #e4109d;
+  border: 8px solid #d32289;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
